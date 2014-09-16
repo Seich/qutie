@@ -1,0 +1,39 @@
+{
+  "name": "qutie",
+  "version": "0.0.0",
+  "main": "lib/qutie.js",
+  "description": "The best module ever.",
+  
+      "homepage": "https://github.com/seich/qutie",
+    
+    "bugs": "https://github.com/seich/qutie/issues",
+  "author": {
+    "name": "Sergio Díaz",
+    "email": "seich@martianwabbit.com"  ,
+        "url": "http://martianwabbit.com" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/seich/qutie"
+  },
+  "license": "MIT",
+  "files": [
+    "lib"
+  ],
+  "keywords": [
+    "qutie"  ,
+        "" 
+  ],
+  "devDependencies": {
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-nodeunit": "^0.3.3",
+    "grunt-contrib-watch": "^0.6.1",
+    "load-grunt-tasks": "^0.4.0",
+    "time-grunt": "^0.3.1",
+    "grunt-mocha-cli": "^1.9.0",
+    "jshint-stylish": "^0.2.0" 
+  },
+  "scripts": {
+    "test": "grunt" 
+  } 
+}
