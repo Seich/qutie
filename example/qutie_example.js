@@ -10,7 +10,7 @@ var qutie = require('../lib/qutie.js').qutie('postgres', {
 var query = qutie('SELECT * FROM comments WHERE id = ?');
 
 query(39).then(function(result) {
-	console.log(result.rows);
+	console.log(result);
 }).fail(function(err) {
 	console.log(err)
 });
