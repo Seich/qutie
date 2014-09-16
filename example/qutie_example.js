@@ -1,7 +1,10 @@
 'use strict';
 
-var qutie = require('../lib/qutie.js').qutie({
-	conn: 'postgresql://seich@localhost/blogular'
+var qutie = require('../lib/qutie.js').qutie('postgres', {
+	user: 'seich',
+	password: null,
+	host: 'localhost',
+	db: 'blogular'
 });
 
 var query = qutie('SELECT * FROM comments WHERE id = ?');
